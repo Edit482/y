@@ -1,5 +1,6 @@
 <?php
-define('API_KEY', 'Your Token');
+define('API_KEY', '280172682:AAHG1e0XWKdmJp5VCxMJV49YCCTryj-WZtU
+280172682:AAHG1e0XWKdmJp5VCxMJV49YCCTryj-WZtU');
 $admin = '68747297';
 function api($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -88,8 +89,8 @@ Commands :
       'reply_markup'=>json_encode(array(
         'inline_keyboard'=>array(
           array(
-            array('text'=>'Creator','url'=>'https://telegram.me/negative'),
-            array('text'=>'Channel','url'=>'https://telegram.me/taylor_team')
+            array('text'=>'Creator','url'=>'https://telegram.me/im_pv'),
+            array('text'=>'Channel','url'=>'https://telegram.me/jackteam')
           ),
           array(
             array('text'=>'فارسی 🇮🇷','callback_data'=>'fa')
